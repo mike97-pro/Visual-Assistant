@@ -259,7 +259,7 @@ def main():
 
     brows = webbrowser.get('windows-default')
     capture = cv2.VideoCapture(0)
-    scene = cv2.VideoCapture('./oggetti_tavolo.mp4')
+    scene = cv2.VideoCapture('./your/video/path')
     backSub = cv2.createBackgroundSubtractorMOG2(detectShadows=False)
 
     menu_images = read_menu_images("./menu_img")
